@@ -1,0 +1,7 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = https://dagshub.com/RavindraM0/Telecom-churn-mlops.dvc
+    auth = basic
+    user = RavindraM0
+    password = 485b45996f5c4b4e7cdce688ee8b2c665c9abfe2

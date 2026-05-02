@@ -1,0 +1,31 @@
+# ---------------- Python ----------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------------- Environment ----------------
+.env
+/config.local
+
+# ---------------- OS / Editor ----------------
+.DS_Store
+.vscode/
+
+# ---------------- MLflow ----------------
+mlruns/
+
+# ---------------- Monitoring ----------------
+monitoring/drift_report.html
+monitoring/drift_summary.json
+
+# ---------------- Temporary ----------------
+/tmp
+/cache
+
+# ---------------- Data (handled by DVC) ----------------
+data/
+
+# ❗ IMPORTANT
+# Do NOT ignore models
+# models/   ❌ DO NOT ADD
